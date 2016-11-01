@@ -1,0 +1,36 @@
+@keyframes wordstosounds{
+}
+
+@keyframes soundstowords{
+}
+
+@keyframes RotateYStart{
+	from{
+		-moz-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		-webkit-transform: rotateY(0deg);
+		-o-transform: rotateY(0deg);
+		transform: rotateY(0deg);
+	}
+	to{
+		-moz-transform: rotateY(90deg);
+		-ms-transform: rotateY(90deg);
+		-webkit-transform: rotateY(90deg);
+		transform: rotateY(90deg);
+	}
+}
+
+@keyframes RotateYEnd{
+	from{
+		-moz-transform: rotateY(-90deg);
+		-ms-transform: rotateY(-90deg);
+		-webkit-transform: rotateY(-90deg);
+		transform: rotateY(-90deg);
+	}
+	to{
+		-moz-transform: rotateY(0deg);
+		-ms-transform: rotateY(0deg);
+		-webkit-transform: rotateY(0deg);
+		transform: rotateY(0deg);
+	}
+}
